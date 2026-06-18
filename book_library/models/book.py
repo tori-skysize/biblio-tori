@@ -6,3 +6,4 @@ class Book(models.Model):
 
     name = fields.Char(string='Title', required=True)
     pages = fields.Char()
+    pages2 = fields.Char()

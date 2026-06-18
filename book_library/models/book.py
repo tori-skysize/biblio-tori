@@ -5,3 +5,4 @@ class Book(models.Model):
     _description = 'Book'
 
     name = fields.Char(string='Title', required=True)
+    pages = fields.Char()

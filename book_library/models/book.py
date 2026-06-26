@@ -9,3 +9,4 @@ class Book(models.Model):
     pages2 = fields.Char()
     pages4 = fields.Char()
     pages5 = fields.Char()
+    pages6 = fields.Char()

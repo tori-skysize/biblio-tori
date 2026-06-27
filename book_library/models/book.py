@@ -1,5 +1,5 @@
 from odoo import models, fields
-wrong code
+
 class Book(models.Model):
     _name = 'library.book'
     _description = 'Book'
@@ -11,3 +11,4 @@ class Book(models.Model):
     pages5 = fields.Char()
     pages6 = fields.Char()
     pages7 = fields.Char()
+    pages8 = fields.Char()

@@ -1,5 +1,5 @@
 from odoo import models, fields
-
+wrong code
 class Book(models.Model):
     _name = 'library.book'
     _description = 'Book'
